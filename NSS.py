@@ -93,3 +93,4 @@ with torch.no_grad():
         correct += (predicted == labels).sum().item()
 
     print(f'测试集准确率: {100 * correct / total:.2f}%') 
+    print(111)
